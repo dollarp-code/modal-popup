@@ -117,3 +117,16 @@ form button:hover {
   cursor: pointer;
   color: #9d0191;
 }
+
+.slide-up {
+  animation: slide-up ease 0.8s;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50rem);
+  }
+}
